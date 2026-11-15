@@ -18,7 +18,7 @@ kaggle datasets download -d sakshigoyal7/credit-card-customers -p data/raw --unz
 5. Lista de clientes en riesgo ordenada por monto transaccionado (valor en riesgo).
 
 ## Resultados
-## Resultados
+
 - El mejor modelo (gradient boosting) obtuvo ROC AUC 0,994 y PR AUC 0,969, frente a una tasa de abandono del 16 %.
 - Con el umbral óptimo (0,21) detecta el 92 % de los clientes que abandonan, con un 91 % de precisión.
 - Las señales más fuertes son el número y el monto de transacciones, seguidas por el cambio de gasto entre trimestres y la cantidad de productos con el banco. Los datos demográficos pesan muy poco.
