@@ -13,9 +13,12 @@
 5. Tabla de estrategia comercial por segmento y exportación de clientes segmentados.
 
 ## Resultados
-_Completa tras ejecutar el notebook:_
-- El …% de los clientes (Campeones + Leales) genera el …% de los ingresos.
-- … clientes valiosos están "En riesgo": oportunidad de recuperación.
+- Tras la limpieza se analizaron 779.425 líneas de factura de 5.878 clientes (dic. 2009 – dic. 2011).
+- Los Campeones (25 % de los clientes) generan el 69 % de los ingresos; junto con los Leales, el 46 % de los clientes concentra el 84 %.
+- 354 clientes valiosos están "En riesgo": compraban con frecuencia pero llevan casi un año sin volver. Suman el 6,3 % de los ingresos (≈ £1,09 M) y son la mejor oportunidad de recuperación.
+- K-means confirma la estructura: el grupo "Alto valor" (20 % de los clientes) aporta el 70 % de los ingresos.
+- El 26 % de los clientes está "Hibernando" y solo aporta el 3,8 %: conviene reactivarlos con acciones de bajo costo.
+
 
 ## Cómo ejecutarlo
 ```bash
