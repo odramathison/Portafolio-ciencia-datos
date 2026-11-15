@@ -13,10 +13,9 @@
 5. Exportación de una lista priorizada de contactos.
 
 ## Resultados
-_Completa tras ejecutar el notebook, por ejemplo:_
-- PR AUC del mejor modelo: …
-- Contactando al 30 % de clientes con mayor probabilidad se captura el …% de las ventas.
-- Con los supuestos de costo, el beneficio es …% mayor que llamar a todos.
+- El mejor modelo (gradient boosting) obtuvo un ROC AUC de 0,815 y un PR AUC de 0,492, frente a una tasa base de conversión del 11,3 %.
+- Contactando al 20 % de clientes con mayor probabilidad se captura el 66 % de las ventas; con el 30 %, el 74 %.
+- Con los supuestos ilustrativos (costo por llamada 5, margen por venta 100), llamar al 34 % mejor puntuado deja un beneficio de 72.040, frente a 64.515 llamando a todos: un 12 % más con 6.765 llamadas menos.
 
 ## Cómo ejecutarlo
 ```bash
