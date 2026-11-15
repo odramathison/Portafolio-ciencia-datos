@@ -14,10 +14,13 @@ Kevin Hillstrom: MineThatData E-Mail Analytics Challenge (2008). 64.000 clientes
 6. Modelo de uplift de dos modelos (T-learner) para elegir a qué clientes enviar el email, validado con la curva de ganancia incremental.
 
 ## Resultados
-_Completa tras ejecutar el notebook, por ejemplo:_
-- La campaña … aumentó la conversión en … puntos (+…%), con diferencia significativa.
-- Ventas incrementales: … · ROI con los supuestos usados: …%
-- Enviando el email solo al …% de clientes con mayor uplift se obtiene el …% de las compras incrementales.
+- Los tres grupos eran comparables antes de la campaña (mismo tamaño, recencia, gasto previo y perfil), por lo que las diferencias se atribuyen al email.
+- **Email hombre:** visitas +72 % (10,6 % → 18,3 %), conversión +119 % (0,57 % → 1,25 %) y gasto por cliente +118 %. Todas significativas (p < 0,001).
+- **Email mujer:** visitas +43 %, conversión +54 % y gasto +65 %, también significativas, pero con menor efecto.
+- Con los supuestos ilustrativos (0,10 $ por email, 30 % de margen), el email de hombre generó 16.403 $ en ventas incrementales y un ROI del 131 %; el de mujer, un ROI del 27 %.
+- El email de hombre funcionó en todos los segmentos; el mayor aumento se dio en clientes multicanal (+1,0 puntos) y con gasto previo de 750–1.000 $ (+2,0 puntos).
+- **Limitación:** el modelo de uplift no logró ordenar a los clientes de forma estable (el aumento real por decil no es decreciente). Con una conversión cercana al 1 %, hay pocas compras para estimar efectos individuales. Siguiente paso: probar con más datos o usar el modelo para predecir visitas, que son mucho más frecuentes.
+
 
 ## Cómo ejecutarlo
 ```bash
