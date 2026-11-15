@@ -1,0 +1,14 @@
+# Datos descargados (se obtienen con los notebooks o los scripts)
+**/data/raw/
+05-dashboard-marketing-digital/data/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Sistema
+.DS_Store
+Thumbs.db
